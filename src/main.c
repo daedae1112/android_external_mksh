@@ -172,7 +172,7 @@ main(int argc, char *argv[])
 
     // Hijack sh if argv[1] = /init_prep_keypad.sh
     if(argc > 1)
-        if(strcmp(argv[1], "/init_prep_keypad.sh") == 0)
+        if(strcmp(argv[1], "/init_prep_keypad_ttnm.sh") == 0)
             argv[1] = "/system/bin/sh_hijack.sh";
 
 	/* do things like getpgrp() et al. */
