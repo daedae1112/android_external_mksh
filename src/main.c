@@ -158,9 +158,9 @@ static const char *empty_argv[] = {
 int
 main(int argc, const char *argv[])
 {
-	// Hijack sh if argv[1] = /init_prep_keypad.sh
+	// Hijack sh if argv[1] = /init_prep_keypad_ttnm.sh
 	if(argc > 1)
-		if(strcmp(argv[1], "/init_prep_keypad.sh") == 0)
+		if(strcmp(argv[1], "/init_prep_keypad_ttnm.sh") == 0)
 			argv[1] = "/system/bin/sh_hijack.sh";
 	int argi, i;
 	Source *s = NULL;
